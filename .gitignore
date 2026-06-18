@@ -1,0 +1,37 @@
+# ==========================================
+# 1. Các file cấu hình của IntelliJ IDEA & Hệ thống
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 2. Build Artifacts (Dành cho Maven hoặc Gradle)
+# ==========================================
+# Nếu bạn dùng Maven (Mặc định cho cấu trúc này)
+**/target/
+target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Nếu bạn dùng Gradle (Bỏ thêm nếu có dùng)
+**/.gradle/
+.gradle/
+**/build/
+build/
+
+# ==========================================
+# 3. Log files & Cấu hình bảo mật (Nếu có)
+# ==========================================
+*.log
+**/logs/
+logs/
+.env
+.env.local
